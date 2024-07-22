@@ -22,7 +22,7 @@ const Hero = () => {
                         variants={container(1)}
                         animate="visible"
                         initial="hidden"     
-                        className='pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
+                        className='pb-16 text-4xl font-thin tracking-tight lg:mt-8 lg:text-8xl'>
                             Brian Montenegro
                         </motion.h1>
                         <motion.span 

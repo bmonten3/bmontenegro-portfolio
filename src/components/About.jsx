@@ -2,6 +2,8 @@ import aboutImg from '../assets/about.jpg';
 import { ABOUT_TEXT } from '../constants';
 import { motion } from "framer-motion"
 import BrianResume from '../assets/BrianMontenegro_Resume_2024.pdf'
+import { IoMdDownload } from "react-icons/io";
+import { FaDirections } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -36,18 +38,18 @@ const About = () => {
                             <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}
                             </p>                 
                         </div>
-                        <div className='flex justify-center lg:justify-start'>
-                        <a href={BrianResume} download="brianMontenegroResume2024.pdf" className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
-                                Resume
+                        <div className='flex flex-wrap lg:flex-row justify-center lg:justify-start'>
+                        <a href={BrianResume} download="brianMontenegroResume2024.pdf" className='flex items-center sm:justify-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
+                                Resume<IoMdDownload className='ml-1' />
                         </a>
-                        <a href='https://github.com/bmonten3' className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
-                                GitHub
+                        <a href='https://github.com/bmonten3' className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
+                                GitHub<FaDirections className='ml-1'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/brian-montenegro-774814230/' className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
-                                Linkedin
+                        <a href='https://www.linkedin.com/in/brian-montenegro-774814230/' className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
+                                Linkedin<FaDirections className='ml-1'/>
                         </a>
-                        <a href="#contact" className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
-                                Contact
+                        <a href="#contact" className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
+                                Contact<FaDirections className='ml-1'/>
                         </a>
                         </div>
                 </motion.div>
