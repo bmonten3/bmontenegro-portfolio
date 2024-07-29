@@ -51,14 +51,13 @@ export const PROJECTS = [
     technologies: ["Node.js", "ExpressJs", "HTML/CSS/JS", "SQLite", 'Handlebars'],
   },
   {
-    title: "Pending",
+    title: "MERN Full Stack Web Application - Expense Tracking - Pending Deployment",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: "Built a complete expense tracking application using the MERN Stack (MongoDB, Express, ReactJS, and Node.js). Set up the back-end with Node.js and Express, connecting it to a MongoDB database. Integrated CORS for secure API access and implemented user authentication for managing and analyzing expenses. Created a dynamic and interactive front-end with ReactJS.",
+    technologies: ["MongoDB", "ExpressJs", "ReactJs", "NodeJs"],
   },
   {
-    title: "Deployed ReactJs Calculator",
+    title: "ReactJs Calculator - Deployed",
     image: reactCalc,
     description:
       "This calculator uses NodeJS and ReactJs to quickly mock up fully functional calculations with a very modern and responsive design. The CSS does a lot with little effort. Utilizing GIT version control, the app is hosted on Cloudflare pages with npm build commands and configurations. Deployed at https://bmonten3-reactjscalculator.pages.dev/",
