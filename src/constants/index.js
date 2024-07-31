@@ -67,6 +67,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Phoenix, Arizona 85001 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+1 *** ***-****",
+  email: "pending@example.com",
 };
