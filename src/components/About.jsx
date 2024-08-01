@@ -1,7 +1,7 @@
 import aboutImg from '../assets/about.jpg';
 import { ABOUT_TEXT } from '../constants';
 import { motion } from "framer-motion"
-import BrianResume from '../assets/BrianMontenegro_Resume_2024.pdf'
+import BrianResume from '../assets/Brian_Montenegro_Resume.pdf'
 import { IoMdDownload } from "react-icons/io";
 import { FaDirections } from "react-icons/fa";
 
@@ -16,7 +16,6 @@ const About = () => {
                 className="my-20 text-center text-4xl">
                     About Me 
             </motion.h1>
-
             <div className="flex flex-wrap">
                 <motion.div 
                 whileInView={{opacity: 1, x:0}}
@@ -45,7 +44,7 @@ const About = () => {
                         <a href='https://github.com/bmonten3' className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
                                 GitHub<FaDirections className='ml-1'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/brian-montenegro-774814230/' className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
+                        <a href='https://www.linkedin.com/in/brian-a-montenegro/' className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>
                                 Linkedin<FaDirections className='ml-1'/>
                         </a>
                         <a href="#contact" className='flex items-center mr-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-m font-medium'>

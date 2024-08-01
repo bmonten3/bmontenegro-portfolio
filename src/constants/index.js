@@ -3,12 +3,17 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import expressMinimalList from '../assets/projects/expressMinimalList.png';
-import porftolio from '../assets/projects/portfolio.png';
+import portfolio from '../assets/projects/portfolio.png';
+import portfolio2 from '../assets/projects/portfolio2.png';
+import portfolio3 from '../assets/projects/portfolio3.png';
 import reactCalc from '../assets/projects/reactCalc.png';
+import express2 from '../assets/projects/express2.png';
+import express3 from '../assets/projects/express3.png';
+import express4 from '../assets/projects/express4.png';
 
 export const HERO_CONTENT = `With a Bachelor of Science in Informatics (w/ an emphasis in Software Engineering), expertise in full stack development and technologies such as JavaScript, React.js, ASP.NET, MySQL, Python, MongoDB, and Agile methodology, I strive to create solutions that bridge the digital divide. My experience includes developing complex web applications, optimizing user experiences, leveraging machine learning for actionable insights, and adhering to best coding practices for scalability and maintainability. Let's work together to build software that makes a difference.`;
 
-export const ABOUT_TEXT = 'I want to help mitigate the gap between those with higher means and lesser means through software development and information technology. As a child of immigrants from an underdeveloped country, this has been a bottleneck throughout my life and academic journey. Proper resource allocation in software development affects everyone and every project has the potential to create more accessible technologies—beneficial for those with fewer financial opportunities, individuals who are neurodivergent, and to address the impact of predatory algorithms. With a Bachelor of Science in Informatics, my experience includes working as a Full Stack Developer Intern and Client Service Advisor. Ive developed complex web applications, optimized user experiences, and leveraged machine learning for actionable insights, all while adhering to best coding practices. I am passionate about joining a team that values computing ethics and strives to create impactful, accessible software.';
+export const ABOUT_TEXT = 'I want to help mitigate the gap between those with higher and lesser means through software development and information technology. As a child of immigrants from an underdeveloped country, this has been a bottleneck throughout my life and academic journey. Proper resource allocation in software development affects everyone and every project has the potential to create more accessible technologies—beneficial for those with fewer financial opportunities, individuals who are neurodivergent, and to address the impact of predatory algorithms. With a Bachelor of Science in Informatics, my experience includes working as a Full Stack Developer Intern and Client Service Advisor. Ive developed complex web applications, optimized user experiences, and leveraged machine learning for actionable insights, all while adhering to best coding practices. I am passionate about joining a team that values computing ethics and strives to create impactful, accessible software.';
 
 
 export const EXPERIENCES = [
@@ -38,27 +43,27 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    image: porftolio,
+    image: [portfolio, portfolio2, portfolio3],
     description:
       "The personal portfolio website you are currently viewing; showcasing projects, skills, and contact information.",
     technologies: ["ReactJs", "TailwindCSS", "Node.js", "Vite",'GIT', "HTML/CSS/JS"],
   },
   {
     title: "CRUD Web Application - Express Minimal List",
-    image: expressMinimalList,
+    image: [expressMinimalList, express2, express3, express4],
     description:
       "Simple to-do list program leveraging express server side technologies, sqlite database, security features, and authentication implementation.",
     technologies: ["Node.js", "ExpressJs", "HTML/CSS/JS", "SQLite", 'Handlebars'],
   },
   {
     title: "MERN Full Stack Web Application - Expense Tracking - Pending Deployment",
-    image: project3,
+    image: [project3],
     description: "Built a complete expense tracking application using the MERN Stack (MongoDB, Express, ReactJS, and Node.js). Set up the back-end with Node.js and Express, connecting it to a MongoDB database. Integrated CORS for secure API access and implemented user authentication for managing and analyzing expenses. Created a dynamic and interactive front-end with ReactJS.",
     technologies: ["MongoDB", "ExpressJs", "ReactJs", "NodeJs"],
   },
   {
     title: "ReactJs Calculator - Deployed",
-    image: reactCalc,
+    image: [reactCalc],
     description:
       "This calculator uses NodeJS and ReactJs to quickly mock up fully functional calculations with a very modern and responsive design. The CSS does a lot with little effort. Utilizing GIT version control, the app is hosted on Cloudflare pages with npm build commands and configurations. Deployed at https://bmonten3-reactjscalculator.pages.dev/",
     technologies: ["HTML", "CSS", "React.js", "CloudFlarePages", "GIT"],
