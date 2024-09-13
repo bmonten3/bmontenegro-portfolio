@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: [portfolio, portfolio2, portfolio3],
     description:
-      "The personal portfolio website you are currently viewing; showcasing projects, skills, and contact information.",
+      "The personal portfolio website you are currently viewing; showcasing projects, skills, and contact information. Deployed on https://bmontenegro-portfolio.pages.dev/",
     technologies: ["ReactJs", "TailwindCSS", "Node.js", "Vite",'GIT', "HTML/CSS/JS"],
   },
   {
