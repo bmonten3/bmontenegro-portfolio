@@ -23,11 +23,11 @@ export const ABOUT_TEXT = 'I want to help mitigate the gap between those with hi
 
 export const EXPERIENCES = [
   {
-    year: "January 2023 - December 2023",
+    year: "January 2023 - Present",
     role: "Full Stack Developer",
     company: "Bit Space Development Ltd.",
-    description: `Contributed to the development of an ongoing analytics dashboard project at Bit Space Development Ltd., utilizing React.js, Express, and .NET for front-end and back-end development. Implemented data visualization features and real-time updates, optimized MySQL performance, and collaborated with UI/UX designers in Adobe XD. Employed best coding practices, including component-based architecture in React.js, SOLID principles in .NET, and RESTful API design with Express. Actively participated in Agile processes to ensure continuous delivery and iterative improvement.`,
-    technologies: ["HTML/CSS/JS", "React.js", "Node.js", "ASP.NET"],
+    description: `Contributed to the development of an ongoing digital asset management project at Bit Space Development Ltd., utilizing ReactJs, NextJs, and .NET Core for full stack development. Implemented data visualization features and real-time updates, optimized MySQL performance, and collaborated with UI/UX designers in Adobe XD. Employed best coding practices, including component-based architecture in React.js, SOLID principles in .NET, and RESTful API design with Express. Actively participated in Agile processes to ensure continuous delivery and iterative improvement.`,
+    technologies: ["MySQL", "React.js", "Node.js", "ASP.NET"],
   },
   {
     year: "August 2023 - Present",
