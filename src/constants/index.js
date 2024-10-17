@@ -6,7 +6,7 @@ import portfolio3 from '../assets/projects/portfolio3.png';
 import express2 from '../assets/projects/express2.png';
 import express3 from '../assets/projects/express3.png';
 import express4 from '../assets/projects/express4.png';
-import landingMobile from '../assets/projects/Journo/landingMobile.ng'
+import landingMobile from '../assets/projects/Journo/landingMobile.png'
 import landingFull from '../assets/projects/Journo/landingFull.png'
 import signInDesktop from '../assets/projects/Journo/signInDesktop.png'
 import signUpMobile from '../assets/projects/Journo/signUpMobile.png'
