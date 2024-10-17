@@ -1,15 +1,20 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import expressMinimalList from '../assets/projects/expressMinimalList.png';
 import portfolio from '../assets/projects/portfolio.png';
 import portfolio2 from '../assets/projects/portfolio2.png';
 import portfolio3 from '../assets/projects/portfolio3.png';
-import reactCalc from '../assets/projects/reactCalc.png';
 import express2 from '../assets/projects/express2.png';
 import express3 from '../assets/projects/express3.png';
 import express4 from '../assets/projects/express4.png';
+import landingMobile from '../assets/projects/Journo/landingMobile.ng'
+import landingFull from '../assets/projects/Journo/landingFull.png'
+import signInDesktop from '../assets/projects/Journo/signInDesktop.png'
+import signUpMobile from '../assets/projects/Journo/signUpMobile.png'
+import entryAndResponseDesktop from '../assets/projects/Journo/entryAndResponseDesktop.png'
+import homeMobile  from '../assets/projects/Journo/homeMobile.png'
+import logMoodMobile  from '../assets/projects/Journo/logMoodMobile.png'
+import manageAccountClerk  from '../assets/projects/Journo/manageAccountClerk.png'
+import logMoodDesktop from '../assets/projects/Journo/logMoodDesktop.png'
 
 export const HERO_CONTENT = `With a Bachelor of Science in Informatics (w/ an emphasis in Software Engineering), expertise in full stack development and technologies such as JavaScript, React.js, ASP.NET, MySQL, Python, MongoDB, and Agile methodology, I strive to create solutions that bridge the digital divide. My experience includes developing complex web applications, optimizing user experiences, leveraging machine learning for actionable insights, and adhering to best coding practices for scalability and maintainability. Let's work together to build software that makes a difference.`;
 
@@ -42,6 +47,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Journo: AI-Powered Fullstack Journaling Web App",
+    image: [entryAndResponseDesktop, landingMobile, landingFull, signInDesktop, signUpMobile, homeMobile, logMoodMobile,manageAccountClerk, logMoodDesktop],
+    description:
+      "This is a full-stack journaling application powered by AI for analyzing user mood and providing feedback based on journal entries. Built with Next.js, the app integrates the Gemini AI API to enhance user journaling experiences, provides robust & secure authentication with Clerk, and features a remote SQLite database hosted on Turso/LibSQL. Codebase: github.com/bmonten3/journo",
+    technologies: ["Gemini Ai API", "Sqlite3", "NextJs", "TypeScript", "Clerk Auth"],
+  },
+  {
     title: "Portfolio Website",
     image: [portfolio, portfolio2, portfolio3],
     description:
@@ -61,13 +73,7 @@ export const PROJECTS = [
     description: "Built a complete expense tracking application using the MERN Stack (MongoDB, Express, ReactJS, and Node.js). Set up the back-end with Node.js and Express, connecting it to a MongoDB database. Integrated CORS for secure API access and implemented user authentication for managing and analyzing expenses. Created a dynamic and interactive front-end with ReactJS.",
     technologies: ["MongoDB", "ExpressJs", "ReactJs", "NodeJs"],
   },
-  {
-    title: "ReactJs Calculator - Deployed",
-    image: [reactCalc],
-    description:
-      "This calculator uses NodeJS and ReactJs to quickly mock up fully functional calculations with a very modern and responsive design. The CSS does a lot with little effort. Utilizing GIT version control, the app is hosted on Cloudflare pages with npm build commands and configurations. Deployed at https://bmonten3-reactjscalculator.pages.dev/",
-    technologies: ["HTML", "CSS", "React.js", "CloudFlarePages", "GIT"],
-  },
+ 
 ];
 
 export const CONTACT = {
