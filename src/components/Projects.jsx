@@ -46,7 +46,6 @@ const Projects = () => {
                 transition={{duration: 1}}
                 viewport={{ once: true }}
                 className="my-10 text-center text-m">
-                    *** Click project thumbnails for more images! ***
             </motion.h6>
             <div>
                 {PROJECTS.map((project, index) => (

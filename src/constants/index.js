@@ -50,7 +50,7 @@ export const PROJECTS = [
     title: "Journo: AI-Powered Fullstack Journaling Web App",
     image: [entryAndResponseDesktop, landingMobile, landingFull, signInDesktop, signUpMobile, homeMobile, logMoodMobile,manageAccountClerk, logMoodDesktop],
     description:
-      "This is a full-stack journaling application powered by AI for analyzing user mood and providing feedback based on journal entries. Built with Next.js, the app integrates the Gemini AI API to enhance user journaling experiences, provides robust & secure authentication with Clerk, and features a remote SQLite database hosted on Turso/LibSQL. Codebase: github.com/bmonten3/journo",
+      "This is a full-stack journaling application powered by AI for analyzing user mood and providing feedback based on journal entries. Built with Next.js, the app integrates the Gemini AI API to enhance user journaling experiences, provides robust & secure authentication with Clerk, and features a remote SQLite database hosted on Turso/LibSQL. Codebase & examples available at: github.com/bmonten3/journo",
     technologies: ["Gemini Ai API", "Sqlite3", "NextJs", "TypeScript", "Clerk Auth", "TailwindCSS"],
   },
   {
